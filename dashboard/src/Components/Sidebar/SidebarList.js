@@ -17,9 +17,7 @@ const SidebarList = props => {
 
    </ul>
 
-  // return (
-  //   <div> HERE ARE YOUR DATA ITEMS</div>
-  // )
+
    };
   };
 

@@ -1,0 +1,5 @@
+.top-collections-list{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 50vw;
+}

@@ -1,5 +1,6 @@
 import './App.css';
-import Sidebar from "./Components/Sidebar/Sidebar"
+import Sidebar from "./Components/Sidebar/Sidebar";
+import ContentBody from './Components/MainPage/ContentBody';
 
 const dummy_sidebar_data = [
   {
@@ -27,8 +28,9 @@ const dummy_sidebar_data = [
 const App = () => {
 
   return (
-    <div>
+    <div className='main'>
       <Sidebar items={dummy_sidebar_data} />
+      <ContentBody />
     </div>
   );
 };

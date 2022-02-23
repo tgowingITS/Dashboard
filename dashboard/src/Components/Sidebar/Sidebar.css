@@ -1,0 +1,18 @@
+.sidebar {
+  background-color: pink;
+  width: 25vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidebar-item {
+  background-color: white;
+  height: 10%;
+  width: 80%;
+  text-align: center;
+
+
+}
